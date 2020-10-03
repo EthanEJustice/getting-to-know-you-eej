@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<!-- 
+        Author: Ethan Justice
+-->       
+<head>
+    <meta charset="UTF-8">
+    <title>Getting To Know Ethan Justice</title>
+    <link rel="stylesheet" href="hello-world.css">
+</head>  
+<body> 
+    <h1>
+        Getting To Know Ethan Justice
+    </h1>
+    
+     <a style=padding-left:46.5%;padding-right:46%; href="mailto:ethanejustice@lewisu.edu" title="Ask any questions you have about me!">Shoot Me an Email!</a>
+
+<!--This is my attempt at putting sidetabs into my website-->
+
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#" class="w3-bar-item w3-button" onclick="openTab('Introduction')">Introduction</a>
+    <a href="#" class="w3-bar-item w3-button" onclick="openTab('Hobby')">My Favorite Hobby</a>
+    <a href="#" class="w3-bar-item w3-button" onclick="openTab('Learn')">What I hope to Learn</a>
+    <a href="#" class="w3-bar-item w3-button" onclick="openTab('Innovations')">Greatest Innovations</a>
+    <a href="#" class="w3-bar-item w3-button" onclick="openTab('Facts')">Fun Facts!</a>
+ </div>
+
+  <span style="font-size:30px;cursor:pointer;color: whitesmoke;border: 2px solid white;" onclick="openNav()">&#9776; Open Sidebar</span>
+  
+  <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+     }
+    
+        function closeNav() {
+         document.getElementById("mySidenav").style.width = "0";
+     }
+    </script>
+
+    <script>
+         function openTab(tabName) {
+         var i;
+         var x = document.getElementsByClassName("tab");
+         for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";  
+      }
+      document.getElementById(tabName).style.display = "block";  
+    }
+    </script>
+
+<!--The current ending of the sidetab project-->
+
+<div id="Introduction" class="w3-container tab">
+    <h2 title="Introduction">
+        <Strong>Introduction</Strong>
+    </h2>
+        <p style="color: white;font-size: larger;font-family: 'Times New Roman', Times, serif;">
+             My name is Ethan Justice I have lived in Romeoville Illinois my whole life. I love to go 
+             travel the world and see new places. I really enjoy going scuba diving in the carribean. So 
+            far my favorite spot to be is probably the bahamsa in Nassau. I am also a pretty huge gamer.
+            I play a lot of video games when i'm not doing homeoworkI play a lot of first-person shooter
+            games like Rainbow Six Siege and Call of Duty. But lately I have been playing a action role 
+            playing game called Path Of Exile. Its super fun and has a lot of colorful explosions. Other
+            than video games and school the only other thing I really do is train with and play with my 
+            10 month old german shepherd named Ember. She is super awesome and loves to play with her ball.
+            If I can figure out how to I will put a picture of her in my website. I am currently a Cyber-
+            Security major hoping to do something related in the future. That's all I really know about as of now.
+        </p>
+
+    <img src="scuba-diving.jpg" alt="Picture of Me Scuba Diving" width="600" height="350"> 
+    <img src="more-diving.jpg" alt="Another Picture Of Me Scuba Diving" width="600" height="350" style=padding-left:7%>
+    <img src="goggles.JPG" alt="Me Wearing A Scuba mask and Gaming headphones" width="300" height="350" style=padding-left:7%>
+</div>
+  
+   
+
+ <div id="Hobby" class="w3-container tab" style="display:none;">   
+    <h2>
+        My Favorite Hobby!
+    </h2>
+        <p style="color: white;font-size: larger;font-family: 'Times New Roman', Times, serif;">
+             My biggest hobby is by far playing video games. I love playing all sorts of video games. I 
+             am the best at first-person shooters like call of duty and Rainbow Six siege.<br> If anyone ever
+             wants to play with me you can hop into my discord. <a color="tomato" href="https://discord.gg/u4sd5u" title="Discord Link">(Join Discord!)</a>
+             Me and my buddies usually chill in there just talking or playing games like rainbow<br> or 
+             sometimes among us togethor 
+        </p>
+ </div> 
+  
+
+ <div id="Learn" class="w3-container tab" style="display:none;">
+     <h2>
+        What I hope to Learn in this course:
+    </h2>   
+
+        <ul style="list-style-type: square;color: white;font-size: larger;font-family: 'Times New Roman', Times, serif;">
+            <li>I want to Learn how to code in multiple languages</li>
+            <li> I want to start learning about networking</li>
+            <li> Realy anything security related.</li>
+            <li>Something Else that seems cool is artifical intelligience</li>
+        </ul>
+</div>       
+
+
+<div id="Facts" class="w3-container tab" style="display:none;">
+    <h2>
+        Fun Facts About Me!
+    </h2>
+        <p style="color: white;font-size: larger;font-family: 'Times New Roman', Times, serif;">
+            Something that is fun about me is that I collect tv and movie posters. <br>I currently have 29 posters. I have some game
+            of thrones ones. Marvel <br>ones, and some random ones like Ford Vs. Ferrari
+        </p> 
+</div> 
+
+
+
+<div id="Innovations" class="w3-container tab" style="display:none;">
+    <h2>
+        Greatest Innovations
+    </h2>
+      
+    <ul style="list-style-type: square;color: white;font-size: larger;font-family: 'Times New Roman', Times, serif;">
+        <li>Collosus Computer <a href="https://en.wikipedia.org/wiki/Colossus_computer" title="Check Them Out!">More Info</a></li>
+        <li>Fortran <a href="https://en.wikipedia.org/wiki/Fortran" title="Look at this!">More Info</a></li>
+        <li>IBM Personal Computer <a href="https://en.wikipedia.org/wiki/IBM_Personal_Computer" title="Check This one out!">More Info</a></li>
+    </ul>
+    
+</div>
+    
+   
+    
+
+
+</body>
+</html>
